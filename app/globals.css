@@ -2,26 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+*{
+    font-family: "Kalameh";
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.hOpx {
+    height: 1px !important;
 }
+.rtl{
+    direction: rtl;
+}
+.form-box{
+    width: 768px;
+    min-height: 500px;
+}
+.height500{
+    height: 500px;
+}
+@media screen and (max-width: 768px) {
+    .form-box{
+        width: 100%;
+        height: 100%;
+    }
+    .height500{
+        height: 100%;
+    }
+}
+.IRANSANS{
+    font-family: "IRANSANSWEB";
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+.Kalameh{
+    font-family: "Kalameh" !important;
 }
