@@ -1,6 +1,6 @@
-import User from '../../../../models/User';
-import { hashpassword, registerValidate } from "../../../../utils/auth";
-import connectDB from "../../../../utils/connectDB";
+import User from 'models/User';
+import { hashpassword, registerValidate } from "utils/auth";
+import connectDB from "utils/connectDB";
 import { NextResponse } from "next/server";
 
 

@@ -1,8 +1,8 @@
 import NextAuth from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials";
-import connectDB from '../../../../utils/connectDB';
-import {verifyPassword} from '../../../../utils/auth';
-import User from '../../../../models/User';
+import connectDB from 'utils/connectDB';
+import {verifyPassword} from 'utils/auth';
+import User from 'models/User';
 import GitHubProvider from "next-auth/providers/github";
 
 const handler = NextAuth(

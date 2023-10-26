@@ -1,11 +1,11 @@
 "use client"
 
 import React, { useEffect } from "react";
-import LoginPage from "../../components/template/LoginPage";
+import LoginPage from "components/template/LoginPage";
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Toast from "../../utils/Toast";
-import { loginValidate } from "../../utils/auth";
+import Toast from "utils/Toast";
+import { loginValidate } from "utils/auth";
 import {signIn, useSession} from "next-auth/react"
 import { useRouter } from 'next/navigation'
 

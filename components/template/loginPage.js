@@ -1,6 +1,6 @@
 import React from 'react'
-import FormInput from '../module/FormInput'
-import RedDiv from '../module/RedDiv'
+import FormInput from 'components/module/FormInput'
+import RedDiv from 'components/module/RedDiv'
 
 
 function loginPage({formData , handleChange , handleSubmit}) {
